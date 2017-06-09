@@ -1,5 +1,6 @@
-package com.example.kotlin.kotlindemo
+package com.example.kotlin.kotlindemo.repository
 
+import com.example.kotlin.kotlindemo.model.Student
 import org.springframework.data.jpa.repository.JpaRepository
 
 /**

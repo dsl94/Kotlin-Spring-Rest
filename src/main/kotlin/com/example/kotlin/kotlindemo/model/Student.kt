@@ -1,4 +1,4 @@
-package com.example.kotlin.kotlindemo
+package com.example.kotlin.kotlindemo.model
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
@@ -14,7 +14,7 @@ import javax.persistence.Id
 data class Student (
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
-        var id: Long = 0,
+        var id: Long? = null,
         var firstName: String = "",
         var lastName: String = ""
 )
